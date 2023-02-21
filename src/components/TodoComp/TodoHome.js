@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import Button from 'react-bootstrap/Button';
 import Modal from "react-modal";
 import { v4 as uuidv4 } from 'uuid';
 import './Todo.css'
@@ -55,15 +54,12 @@ const TodoHome = () => {
   }
 
   const openAddTodoModal = (item) => {
-    console.log("item", item)
     if (item) {
-      console.log("if");
       setTitle(item.title)
       changeStatus(item.status)
       setId(item.id)
       setAction('edit')
     } else {
-      console.log("else");
       setAction('')
       setTitle("")
       setId("")
