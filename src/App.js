@@ -1,6 +1,7 @@
 import './App.css';
-import Counter from './components/Counter/Counter';
-import TodoHome from './components/TodoComp/TodoHome';
+// import Counter from './components/Counter/Counter';
+// import TodoHome from './components/TodoComp/TodoHome';
+import Shopify from './components/Shopify/Shopify';
 
 function App() {
   return (
@@ -10,7 +11,10 @@ function App() {
         {/* <Counter /> */}
 
         {/* Todo app */}
-        <TodoHome />
+        {/* <TodoHome /> */}
+
+        {/* Shopify App */}
+        <Shopify/>
       </header>
     </div>
   );
